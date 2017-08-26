@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #2E374F;
+  font-family: 'Kaushan Script', cursive; }
+
+h1 {
+  color: #fff;
+  font-size: 48px; }
+
+p,
+span {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif; }
+
+figure {
+  margin: auto; }
+
+.content article {
+  padding: 100px 0;
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center; }
+
+img {
+  min-width: 100px; }
+
+hr {
+  margin: 45px 0; }
+
+.bridge-box {
+  position: relative;
+  height: 680px;
+  background-image: url(../img/landscape-blur.jpg);
+  background-size: auto 810px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden; }
+
+.logo {
+  height: 100px;
+  width: 100%;
+  background-image: url(../img/my-logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  margin-top: -110px; }
+
+.fore-dog {
+  width: 960px;
+  height: 700px;
+  background-image: url(../img/perro.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  position: absolute;
+  left: 50%;
+  margin-left: -400px;
+  top: 380px; }
+
+.back-girl {
+  width: 960px;
+  height: 797px;
+  background-image: url(../img/girl-blur.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  position: absolute;
+  left: 50%;
+  margin-left: -35px;
+  top: -288px; }
